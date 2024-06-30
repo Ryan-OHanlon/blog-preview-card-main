@@ -28,11 +28,11 @@ Users should be able to:
 
 ### Screenshot
 
-![Blog preview card](./Frontend Mentor Blog preview card.png)
+![Screenshot](./FrontendMentorBlogpreviewcard.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/blog-preview-card-using-html-and-css-RtB39RIfcv](https://www.frontendmentor.io/solutions/blog-preview-card-using-html-and-css-RtB39RIfcv)
 - Live Site URL: [https://ryan-ohanlon.github.io/blog-preview-card-main](https://ryan-ohanlon.github.io/blog-preview-card-main)
 
 ## My process
