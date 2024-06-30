@@ -1,0 +1,74 @@
+@font-face {
+    font-family: Figtree;
+    src: url(C:\Users\ryanr\OneDrive\Documents\GitHub\blog-preview-card-main\assets\fonts\Figtree-Italic-VariableFont_wght.ttf);
+    src: url(C:\Users\ryanr\OneDrive\Documents\GitHub\blog-preview-card-main\assets\fonts\Figtree-VariableFont_wght.ttf);
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    border: 2px solid hsl(0, 0%, 7%);
+    padding: 20px 20px;
+    box-shadow: .5em .5em;
+    width: 21em
+}
+/*Sets all text elements set to Figtree font*/
+div{
+    font-family: Figtree;
+}
+
+.image{
+    border-radius: 20px
+}
+/*Creates yellow box around text*/
+div.learning{
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 16em;
+    font-weight: 800;
+    text-align: center;
+}
+
+.date{
+    font-weight: 800;
+}
+
+h2{
+    font-weight: 800;
+    color: hsl(0, 0%, 7%);
+}
+/*Changes h2 to yellow when mouse is on text*/
+h2:hover{
+    color: hsl(47, 88%, 63%);
+}
+
+.description{
+    color: hsl(0, 0%, 50%);
+    font-weight: 800;
+    margin-bottom: 2em;
+    line-height: 1.5;
+}
+/* Used display: flex to place image and name on same line */
+.name{
+    font-weight: 800;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+span{
+    margin-left: 1em;
+}
+footer{
+    margin: 2em;
+}

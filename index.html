@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <!--Link to styles.css and Figtree google font-->
+  <link type="text/CSS" rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Figtree" rel="stylesheet">  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!--Attribution text-->
+  <style>
+    .attribution { 
+      font-size: 11px; 
+      text-align: center; 
+    }
+    .attribution a { 
+      color: hsl(228, 45%, 44%); 
+    }
+  </style>
+</head>
+<!--Body used to position project elements to center of webpage-->
+<body>
+  <!--main acts as box for project elements-->
+  <main>
+    <div>
+        <div>
+          <!--image size adjusted in CSS-->
+          <img src="assets/images/illustration-article.svg" alt="blog preview picture" class="image">
+        </div>
+        <div class="learning">
+          Learning
+        </div>
+        <div class="date">
+          Published 21 Dec 2023<br>
+        </div>
+      <!--pseudo element :hover added to change color to yellow-->
+      <h2>
+        HTML & CSS foundations<br>
+      </h2>
+      <div class="description">
+        <p>These languages are the backbone of every website, defining structure, content, and presentation.<br></p>
+      </div>
+        <div class="name">
+          <!--image element width adjusted here-->
+          <img src="assets/images/image-avatar.webp" alt="profile picture" class="profile" height="30">
+          <!--Added margin-left in CSS to create space between image and name-->
+          <span>Greg Hooper</span>
+        </div>
+    </div>
+  </main>
+  <!--added margin to footer to space attribution from project-->
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Ryan O'Hanlon</a>.
+    </div>
+  </footer>
+</body>
+</html>
