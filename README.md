@@ -49,6 +49,8 @@ This challenge taught me responsive design using box and using main and div elem
 
 Using my knowledge from the qr-component challenge, I had an easier time ensuring that the project would be in the middle of the webpage using the properties position, top, left, and transform.
 
+UPDATE: Changed body CSS to flex upon recommendation from feedback.
+
 ```css
 body{
     background-color: hsl(47, 88%, 63%);
@@ -58,6 +60,17 @@ body{
     transform: translate(-50%, -50%);
 }
 ```
+```css
+body{
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+```
+
 While I'm proud of knowing how to create a box to contain elements using main and div, my real challenge for this project was using the attributes margin and padding to ensure a responsive design between desktop and mobile. My solution involved assigning each div element their own class and use em values so each element is spaced out appropriately.
 
 ```css
