@@ -1,7 +1,7 @@
 @font-face {
     font-family: Figtree;
-    src: url(C:\Users\ryanr\OneDrive\Documents\GitHub\blog-preview-card-main\assets\fonts\Figtree-Italic-VariableFont_wght.ttf);
-    src: url(C:\Users\ryanr\OneDrive\Documents\GitHub\blog-preview-card-main\assets\fonts\Figtree-VariableFont_wght.ttf);
+    src: url(/assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+    src: url(/assets/fonts/Figtree-VariableFont_wght.ttf);
 }
 /*Used flexbox to center content to middle of webpage*/
 body{
@@ -19,7 +19,7 @@ main{
     border: 2px solid hsl(0, 0%, 7%);
     padding: 20px 20px;
     box-shadow: .5em .5em;
-    width: 21em
+    width: 21em;
 }
 /*Sets all text elements set to Figtree font*/
 div{
@@ -27,7 +27,7 @@ div{
 }
 
 .image{
-    border-radius: 20px
+    border-radius: 20px;
 }
 /*Creates yellow box around text*/
 div.learning{
@@ -42,7 +42,7 @@ div.learning{
 }
 
 .date{
-    font-weight: 800;
+    font-weight: 500;
 }
 
 h2{
@@ -56,7 +56,7 @@ h2:hover{
 
 .description{
     color: hsl(0, 0%, 50%);
-    font-weight: 800;
+    font-weight: 500;
     margin-bottom: 2em;
     line-height: 1.5;
 }
